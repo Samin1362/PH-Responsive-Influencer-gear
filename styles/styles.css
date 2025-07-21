@@ -242,6 +242,41 @@ nav {
   border-radius: 0px;
 }
 
+/* footer section */
+footer {
+  background-color: #0A0826;
+  max-width: 1440px;
+  color: white;
+  margin: 0 auto;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+footer > h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+footer > p {
+  font-size: 0.87rem;
+  font-weight: 500;
+  color: #D9DBE1;
+}
+
+.footer-logo {
+  margin-top: 10px;
+  display: flex;
+  gap: 18px;
+}
+
+.footer-logo > i {
+  font-size: 1.2rem;
+}
+
 
 @media screen and (max-width: 576px) {
 
